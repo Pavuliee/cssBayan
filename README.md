@@ -1,1 +1,1 @@
-### (https://pavuliee.github.io/cssBayan/cssBayan/index.html)
+### (https://pavuliee.github.io/cssBayan/index.html)
