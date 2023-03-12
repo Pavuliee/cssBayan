@@ -1,0 +1,160 @@
+.body {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+/* !   header styles  */
+
+
+.header {
+    position: relative;
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(109, 109, 109, 0.3);
+}
+.head-text-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.head-text-p {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+
+    font: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+
+    color: black;
+}
+
+
+@media screen and (min-width: 820px){ 
+    .header {
+        position: relative;
+        height: 120px;
+        width: 90%;
+        left: 50px;
+        
+
+        justify-content: flex-start;
+    }
+    .head-text-p {
+        left: 100px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+} 
+
+ 
+/* !  section maincontent styles  */
+
+.sec {
+    position: relative;
+    width: 90%;
+    height: fit-content;
+    margin: 5% 5% 0 5%;
+    
+}
+.sec:hover div.sec-block span.sec-head div.sec-head-indicator {
+    display: block;
+}
+.sec:hover div.sec-block:hover span.sec-head div.sec-head-indicator p.sec-head-indicator-text{
+    rotate: 45deg;
+    transition: all 0.3s;
+}
+.sec-block {
+    position: relative;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.sec-block div.sec-block.pic { display: none; }
+.sec-block:hover div.sec-block.pic, 
+.sec-block:active div.sec-block.pic{ 
+    display:block;
+}
+ 
+
+.sec-head {
+    position: relative;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-head-title {
+    position: relative;
+    width: 80%;
+    height: 50px;
+
+    top: 20px;
+    left: 20px;
+
+    color: black;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+}
+.sec-head-indicator {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+   display: none; 
+}
+.sec-head-indicator:hover{
+    transition: all 0.3s;
+
+ }
+.sec-head-indicator-text {
+    position: relative;
+
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;
+
+    color: black;
+
+    left: 10px;
+}   
+.sec-head-indicator-text:hover{
+    rotate: 45deg;
+    transition: all 0.3s;
+    top: 9px;
+    right: 1px;
+}
+
+.pic {
+    position: relative;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+
+    display:block;
+}
+
+.sec-block-img {
+    width: 300px;
+    height: 300px;
+}
+
