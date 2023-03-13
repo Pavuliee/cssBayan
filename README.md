@@ -1,6 +1,6 @@
 ### Task: https://github.com/DrDiman/CSS-Bayan-task
 ### Screenshot:
-[screenshot](/source/img/screenshot.png "Screenshot")
+![screenshot](/source/img/screenshot.png "Screenshot")
 ### Deploy: https://pavuliee.github.io/cssBayan/index.html
 ### Done 12.03.2023 / deadline 13.03.2023
 ### Score: 140 / 140
